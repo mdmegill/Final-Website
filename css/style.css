@@ -1,0 +1,84 @@
+/*
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Matt Megill
+Developer @GA in NYC
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/**
+ * 00 - Normalize OR Reset
+ * 01 - Generic
+ * 02 - Base Styles
+ * 03 - Layout
+ * 04 - Header & Navigation
+ * 05 - Content
+ * 06 - Footer
+ * 07 - Miscellaneous
+**/
+
+/******************************************
+/* Generic
+/*******************************************/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  background: black;
+
+}
+
+body > *{
+  max-width: 1250px;
+  margin: auto;
+  background: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav  {
+  display: flex;
+}
+
+header {}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
