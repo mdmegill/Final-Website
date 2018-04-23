@@ -125,7 +125,6 @@ header img {
 }
 
 nav {
-  margin: 20px;
   text-align: center;
 }
 
@@ -198,6 +197,12 @@ p {
   max-height: 600px;
   overflow-y: scroll;
   text-align: center;
+}
+
+.middle-section p{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .middle-section ul {
