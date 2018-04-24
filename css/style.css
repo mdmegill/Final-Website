@@ -253,7 +253,7 @@ footer p {
   h1 {
     font-size: 32px;
     padding: 0;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
   h1:first-of-type,
   h1:nth-of-type(2) {
@@ -263,7 +263,7 @@ footer p {
     display: block;
     width: 100%;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
   nav ul li a {
     font-size: 18px;
@@ -325,6 +325,10 @@ footer p {
     width: 80%;
     margin: auto;
     padding: 0;
+  }
+
+  .hide{
+    margin-top: 0;
   }
 
   .links h2, links ul li{
