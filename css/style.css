@@ -109,10 +109,13 @@ nav ul {
 /* HEADER AND NAVIGATION
 /*******************************************/
 
+header{
+  width: 100%;
+}
 h1 {
   font-weight: 800;
   font-size: 80px;
-  max-width: 100%;
+  width: 100%;
 }
 
 h1:first-of-type {
@@ -258,6 +261,9 @@ footer p {
   }
   nav ul {
     display: block;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
   }
   nav ul li a {
     font-size: 18px;
@@ -335,4 +341,51 @@ footer p {
   }
 }
 
-@media ( max-width: 600px) {}
+@media ( max-width: 768px) {
+
+  h1{
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .middle-section {
+    order: -1;
+    max-height: none;
+    text-align: center;
+    overflow-y: hidden;
+    width: 100%;
+  }
+  .middle-section p{
+    text-align: center;
+  }
+
+  .no-plastic{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .links{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .links h2, .links ul{
+    padding: 0;
+  }
+
+  .main-content h2{
+    font-size: 27px;
+  }
+
+  footer p{
+    width: 80%;
+    margin: auto;
+  }
+
+}
