@@ -12,6 +12,7 @@
   <!-- external CSS link -->
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,800" rel="stylesheet">
+  <link href="css/s3-slider.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
 
@@ -52,10 +53,15 @@
         </li>
     </ul>
   </nav>
-  <div id="slideshow">
-    <div><img src="images/divemaster_photo.JPG" width="640" height="480" border="0" alt="" /></div> <!-- This is the last image in the slideshow -->
-    <div><img src="images/hero_image.jpg" width="640" height="480" border="0" alt="" /></div>
-    <div><img src="images/sinking_reefs.jpg" width="640" height="480" border="0" alt="" /></div>
+  <div id="slider">
+    <div class="slide">
+      <img src="images/divemaster_photo.JPG"/>
+      <span> <b>A Tile is good</b><br/>Some text long or short text should be placed here to inform customers of your great products...</span>
+    </div>
+    <div class="slide">
+      <img src="images/hero_image.jpg"/>
+      <span> Finally a short text...</span>
+    </div>
   </div>
   </div>
   <div class="main-content">
@@ -114,5 +120,5 @@
 </body>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/fadeSlideShow.js"></script>
+<script src="js/s3-slider.js"></script>
 </html>
