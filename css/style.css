@@ -152,6 +152,7 @@ nav ul li {
   padding-top: 25px;
 }
 
+
 nav ul li a {
   background-color: red;
   background-size: 200px;
@@ -226,6 +227,23 @@ p {
 
 .links h2 {
   padding-left: 30px;
+}
+
+li h4{
+  font-weight: 600;
+  font-size: 24px;
+  color: blue;
+}
+
+label{
+  font-weight: 300;
+  font-size: 18px;
+
+}
+
+textarea{
+  max-width: 80%;
+  max-height: 600px;
 }
 
 /******************************************
