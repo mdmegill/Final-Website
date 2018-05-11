@@ -168,6 +168,22 @@ nav ul li a:hover {
   background-color: green;
 }
 
+.slide img{
+  width: auto;
+  max-height: 100%; 
+}
+
+#slider .slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#slider .slide span {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+}
 /******************************************
 /* CONTENT
 /*******************************************/

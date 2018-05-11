@@ -89,5 +89,5 @@ $.fn.s3Slider = function(vars) {
 })(jQuery);  
 
 jQuery(function($){
-  $('#slider').s3Slider({timeout:6000,fadeTime:1000});
+  $('#slider').s3Slider({timeout:3000,fadeTime:1000});
 });
