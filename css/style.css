@@ -232,10 +232,6 @@ p {
   height: auto;
 }
 
-.main-content {
-  padding-top: 30px;
-}
-
 .links h2 {
   padding-left: 30px;
 }
@@ -269,6 +265,9 @@ textarea{
 .comment-output{
   font-weight: 400;
   font-size: 20px;
+}
+.home{
+  padding-top: 30px;
 }
 /******************************************
 Footer
